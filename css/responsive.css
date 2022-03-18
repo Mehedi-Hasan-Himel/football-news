@@ -1,12 +1,12 @@
-/* Mobile devices Layout: 320px to 480px*/
+/* Mobile devices Layout: 320px to 480px Start*/
 
 @media (min-width: 320px) and (max-width: 480px) {
   header {
     height: 100vh;
     width: 100vw;
   }
-  .navbar{
-     display: none;
+  .navbar {
+    display: none;
   }
   .btn {
     margin-top: 2rem;
@@ -81,3 +81,69 @@
   }
   /* footer end */
 }
+/* Mobile devices Layout: 320px to 480px End*/
+
+/* iPads, Tablets Layout: 481px to 768px Start*/
+@media (min-width: 481px) and (max-width: 768px) {
+  header {
+    height: 70vh;
+  }
+  .navbar {
+    display: none;
+  }
+  .btn {
+    margin-top: 2rem;
+    font-size: medium;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .btn img {
+    width: 2rem;
+  }
+  .intro {
+    margin-top: 0;
+    width: 100vw;
+  }
+  .intro-info {
+    width: 100vw;
+    padding-left: 1rem;
+  }
+  .intro-info h2 {
+    font-size: 44px;
+    color: #fff;
+  }
+  .intro-banner img {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    width: 50vw;
+    height: 50vh;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player-card {
+    grid-column-gap: 1rem;
+  }
+  .high-light {
+    flex-direction: column;
+  }
+  .high-light-info {
+    width: 90vw;
+    margin-bottom: 3rem;
+  }
+  .high-light-btn {
+    font-size: 14px;
+    padding: 0.1rem 1rem;
+  }
+  .high-light-btn img {
+    width: 2rem;
+  }
+}
+/* iPads, Tablets Layout: 481px to 768px End*/
+
+/* Small screens, laptops Layout: 769px to 1024px Start */
+
+@media (min-width: 769px) and (max-width: 1024x) {
+}
+/* Small screens, laptops Layout: 769px to 1024px End */
