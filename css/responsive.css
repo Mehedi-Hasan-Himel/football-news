@@ -116,7 +116,7 @@
   .intro-banner img {
     margin-top: 3rem;
     margin-left: 1rem;
-    width: 50vw;
+    width: 40vw;
     height: 50vh;
   }
   .players {
@@ -128,6 +128,9 @@
   }
   .high-light {
     flex-direction: column;
+  }
+  .high-light img {
+    width: 90vw;
   }
   .high-light-info {
     width: 90vw;
@@ -145,7 +148,7 @@
 
 /* Small screens, laptops Layout: 769px to 1024px Start */
 @media (min-width: 769px) and (max-width: 1024px) {
-  header{
+  header {
     height: 70vw;
   }
   .btn {
@@ -167,7 +170,9 @@
     line-height: 4rem;
     margin-bottom: 3rem;
   }
-
+  .intro-banner img {
+    width: 40vw;
+  }
   .players {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -186,3 +191,14 @@
   }
 }
 /* Small screens, laptops Layout: 769px to 1024px End */
+
+/* Desktops, large screens: 1025px — 1200px Start*/
+@media (min-width: 1025px) and (max-width: 1200px) {
+  header {
+    height: 90vh;
+  }
+ .player-card{
+   width: 25vw;
+ }
+}
+/* Desktops, large screens: 1025px — 1200px End*/
