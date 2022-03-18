@@ -145,11 +145,11 @@ header {
   border: transparent;
   cursor: pointer;
 }
-.high-light-btn :hover {
+.high-light-btn:hover {
   background-color: rgba(219, 13, 219, 0.904);
 }
-.high-light-btn p{
-   margin-top: 1rem;
+.high-light-btn p {
+  margin-top: 1rem;
 }
 
 .high-light-banner img {

@@ -144,7 +144,45 @@
 /* iPads, Tablets Layout: 481px to 768px End*/
 
 /* Small screens, laptops Layout: 769px to 1024px Start */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header{
+    height: 70vw;
+  }
+  .btn {
+    font-size: 22px;
+    padding: 0.1rem 1rem;
+  }
+  .btn img {
+    width: 36px;
+  }
+  .nav-menu li {
+    margin-right: 1rem;
+  }
+  .intro-info {
+    margin-left: 3rem;
+  }
+  .intro-info h2 {
+    font-size: 46px;
+    color: #fff;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+  }
 
-@media (min-width: 769px) and (max-width: 1024x) {
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .high-light-info {
+    width: 40vw;
+  }
+  .high-light-banner img {
+    width: 40vw;
+  }
+  .high-light-btn {
+    font-size: 22px;
+    padding: 0.1rem 1rem;
+  }
+  .high-light-btn img {
+    width: 2rem;
+  }
 }
 /* Small screens, laptops Layout: 769px to 1024px End */
