@@ -115,7 +115,6 @@ header {
 /* Players End */
 
 /* Highlight Start */
-/* intro section start */
 .high-light {
   display: flex;
   justify-content: space-around;
@@ -133,13 +132,33 @@ header {
 .high-light-info p {
   margin-bottom: 20px;
 }
-.intro-banner img {
+.high-light-btn {
+  background-color: #e02c6d;
+  color: white;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  font-weight: bolder;
+  border: transparent;
+  cursor: pointer;
+}
+.high-light-btn:hover {
+  background-color: rgba(219, 13, 219, 0.904);
+}
+.high-light-btn p{
+   margin-top: 1rem;
+}
+
+.high-light-banner img {
   width: 556.01px;
   height: 438px;
 }
-/* intro section end */
 /* Highlight End */
 
+/* Footer Start */
 .footer {
   margin-top: 3rem;
   text-align: center;
@@ -151,10 +170,11 @@ header {
   display: flex;
   justify-content: center;
 }
-.footer div li{
-   margin-left: 1rem;
+.footer div li {
+  margin-left: 1rem;
 }
 .footer div li img {
   width: 32px;
   height: 32px;
 }
+/* Footer End */
