@@ -124,6 +124,7 @@
   }
   .player-card {
     grid-column-gap: 1rem;
+    width: 38vw;
   }
   .high-light {
     flex-direction: column;
